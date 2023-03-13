@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product-listing</title>
     <style>
         #menu-container {
             display: flex;
@@ -114,6 +114,50 @@
             justify-content: space-around;
             width: 50%;
             align-items: center;
+            margin-left: 50px;
+        }
+        
+        #About {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #Help {
+            display: flex;
+            flex-direction: column;
+            margin-top: -70px;
+        }
+        
+        #Contact {
+            display: flex;
+            flex-direction: column;
+            margin-top: -80px;
+        }
+        
+        #right3 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-left: 200px;
+        }
+        
+        #email {
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        
+        #network {
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+        
+        #submit {
+            width: 100px;
+            height: 56px;
+            border-radius: 5px;
+            background-color: green;
         }
     </style>
 
@@ -297,10 +341,10 @@
 
         <div id="menu3">
             <img src="Button 1 (5).png" alt="">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
+            <p style="color: green;">1</p>
+            <p style="color: green;">2</p>
+            <p style="color: green;">3</p>
+            <p style="color: green;">4</p>
             <img src="Button 1 (6).png" alt="">
         </div>
         <footer id="end">
@@ -328,6 +372,24 @@
                     <a style="color: white;" href="">(+1) 234567893</a>
                     <p style="color: white;">Emnail:</p>
                     <a style="color: white;" href="">name@email.com</a>
+                </div>
+            </div>
+            <div id="right3">
+                <h1 style="color: white;">Receve new promotions</h1>
+                <p style="color: white;">Duis ea tempor commodo amet repehende</p>
+                <div><input type="email" name="Email" id="email" placeholder="Input your email">
+                    <input type="submit" value="Subcribe" name="Subcribe" id="submit">
+                    <br><br>
+                </div>
+                <div id="network">
+                    <img src="Twitter 1.png" alt="Error">
+                    <img src="Facebook 1.png" alt="Error">
+                    <img src="LinkedIn 1.png" alt="Error">
+                    <img src="YouTube 1.png" alt="Error">
+                </div>
+                <div>
+                    <br>
+                    <p style="color: white;">&copy; 2022 Brand,Inc. &middot; Privacy &middot; Terms &middot; Sitemap</p>
                 </div>
             </div>
         </footer>
