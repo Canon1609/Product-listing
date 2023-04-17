@@ -202,12 +202,15 @@
             </div>
         </div>
 
+
         <div id="menu3">
             <img src="../Button 1 (5).png" alt="">
-            <p style="color: green;">1</p>
-            <p style="color: green;">2</p>
-            <p style="color: green;">3</p>
-            <p style="color: green;">4</p>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+            </ul>
             <img src="../Button 1 (6).png" alt="">
         </div>
         <footer id="end">
@@ -238,11 +241,18 @@
                 </div>
             </div>
             <div id="right3">
-                <h1 style="color: white;">Receve new promotions</h1>
-                <p style="color: white;">Duis ea tempor commodo amet repehende</p>
-                <div><input type="email" name="Email" id="email" placeholder="Input your email">
-                    <input type="submit" value="Subcribe" name="Subcribe" id="submit">
-                    <br><br>
+                <div>
+                    <h2 style="color: white;">Subscribe to our Newsletter</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label style="color: white;" for="email">Email address:</label>
+                            <div style="display: flex;">
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </form>
                 </div>
                 <div id="network">
                     <img src="../Twitter 1.png" alt="Error">
